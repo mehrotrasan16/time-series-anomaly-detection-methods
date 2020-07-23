@@ -1,0 +1,44 @@
+0. Dataset loading and getting all the data in an understandable format.
+	Plotting it. - done 
+1. Mutate time series - better outliers. - done 
+2. Extracting Features from time series.
+	Stationarity check
+	Stationarity transformations - differencing and power transformations.
+3. PCA on features - reduce dimensions to a subspace of n dimensions - get ones with largest variance
+PCA - 
+	Taking the whole dataset ignoring the class labels
+	Compute the d-dimensional mean vector
+	Computing the scatter matrix (alternatively, the covariance matrix)
+	Computing eigenvectors and corresponding eigenvalues
+	Ranking and choosing k eigenvectors
+	Transforming the samples onto the new subspace
+4. Try LDA if classes are known
+5. STL decomposition of timeseries - 
+	Analyse residuals.
+	If > threshold then outlier
+	Find a dynamic way to calculate threshold.
+6. Model time series using AR
+7. Model time series using MA
+8. Model time series using ARMA and ARIMA and SARIMA, ARFIMA, Box-Jenkins
+	
+AR
+MA
+ARIMA
+SARIMA
+Forecast, calculate actual - pred then check against threshold
+
+STL 
+check residuals against threshold,
+
+Threshold detection:
+SD +- 3d - z-score 
+Median Absolute Deviation
+Interquartile range
+
+Scikit learn
+OneClassSVM, Isolation forest and LOF
+
+
+Other methods 
+Clustering - DBSCAN
+Trees - Isolation binary decision trees and random forests

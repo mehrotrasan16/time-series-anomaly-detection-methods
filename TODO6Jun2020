@@ -1,0 +1,80 @@
+TODOJUN2020 - TS VERSION
+STL IMPLEMENTATION USING:
+REF 78/ - UNDERSTAND, THEN IMPLEMENT
+REF 79/ - READ AND UNDERSTAND THEN IMPLEMENT
+REF 80 - DONE
+
+78-REFS
+PCA + ALPHA HULL
+R. J. HYNDMAN. COMPUTING AND GRAPHING HIGHEST DENSITY REGIONS. AMER.
+STATIST., 50(2):120–126, 1996
+PCA + HDR
+B. PATEIRO-LOPEZ AND A. RODRıGUEZ-CASAL. GENERALIZING THE CONVEX HULL ´
+OF A SAMPLE: THE R PACKAGE ALPHAHULL. J. STAT. SOFT., 34(5):1–28, 4 2010
+
+[79] REFS -
+FOR STL-
+1. FOURIER TRANSFORM [2] -
+ P. BLOOMFIELD. FOURIER ANALYSIS OF TIME SERIES: AN
+INTRODUCTION. JOHN WILEY & SONS, 2004
+ OR WAVELET TRANSFORM [19] - 
+ D. B. PERCIVAL AND A. T. WALDEN. WAVELET METHODS FOR
+TIME SERIES ANALYSIS, VOLUME 4. CAMBRIDGE UNIVERSITY
+PRESS, 2006 
+WHEREAS, FOR NON-PARAMETRIC METHODS, THE BASIS IS DATADRIVEN [18] -
+ V. MOSKVINA AND A. ZHIGLJAVSKY. AN ALGORITHM BASED
+ON SINGULAR SPECTRUM ANALYSIS FOR CHANGE-POINT
+DETECTION. COMMUNICATIONS IN STATISTICS-SIMULATION
+AND COMPUTATION, 32(2):319{352, 2003
+
+ARIMA [26] - W. W.-S. WEI. TIME SERIES ANALYSIS. ADDISON-WESLEY PUBL, 1994.
+EXPONENTIAL SMOOTHING[11] - R. H. JONES. EXPONENTIAL SMOOTHING FOR MULTIVARIATE TIME SERIES. JOURNAL OF THE ROYAL STATISTICAL SOCIETY. SERIES B (METHODOLOGICAL), PAGES 241{251, 1966
+KALMAN FILTER [9] - S. S. HAYKIN, S. S. HAYKIN, AND S. S. HAYKIN. KALMAN FILTERING AND NEURAL NETWORKS. WILEY ONLINE LIBRARY, 2001.
+STATE SPACE MODELS [6] - J. DURBIN AND S. J. KOOPMAN. TIME SERIES ANALYSIS BY STATE SPACE METHODS. NUMBER 38. OXFORD UNIVERSITY PRESS, 2012
+
+
+INSTALL R STUDIO
+COLLECT TSFEATURES FOR ALL YAHOO DATASETS.
+IMPLEMENT PCA ON THE FEATURES.
+TRY ANOMALOUS PACKAGE IMPLEMENTATIONS OF THE ALPHA HULL AND THE DENSITY BASED OUTLIER DETECTION ALGORITHMS ON THE PCA OUTPUT DATA.
+
+
+
+LIST HAJARS REFERENCES - READ AND UNDERSTAND - IMPLEMENT
+AR
+MA
+ARIMA
+[67] R. Adhikari and R. K. Agrawal, An Introductory Study on Time Series Modeling and Forecasting. LAP LAMBERT Academic Publishing. AR
+[68] “Autoregression Models for Time Series Forecasting with Python,” https://machinelearningmastery.com/ Accessed (23/10/2019). AR
+[69] G. A. F. Seber and A. J. Lee, Linear Regression Analysis, 2nd ed. Wiley. AR
+[70] I. J. Myung, “Tutorial on maximum likelihood estimation,” vol. 47, no. 1, pp. 90–100.AR
+
+--------------
+18/6/20
+Reinstalled R and R studio
+Learning data manipulation with R using the tutorial at -https://paldhous.github.io/ucb/2016/dataviz/week7.html
+installed oddstream
+installed tsfeatures
+looking for wavlet/fourier transform time series
+
+1. STL decomposition
+	a. STL for outlier detection - threshold calculation value
+2. Time series modelling 
+	a. AR
+	b. MA
+	c. ARIMA
+	d. SVM
+	e. MLPs
+	f. SANN
+	g. LSTM
+
+model a ts to a func f, then predict value Rt as R't using f and calculaitng pred error pe = Rt - R't
+outlier if pe > fixed threshold value
+f has parameters - estimated using stochastic methods or ml
+stochastic methods use probability models 
+AR - ts = [Rt] such that Rt is the sum of prev data records plus an error
+The relationship between data records is called correlation
+
+machine learning mastery ar tutorial
+
+
