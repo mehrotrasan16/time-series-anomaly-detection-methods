@@ -31,7 +31,7 @@ STL
 check residuals against threshold,
 
 Threshold detection:
-SD +- 3d - z-score 
+data point +- 3d from mean - z-score method
 Median Absolute Deviation
 Interquartile range
 
@@ -42,3 +42,18 @@ OneClassSVM, Isolation forest and LOF
 Other methods 
 Clustering - DBSCAN
 Trees - Isolation binary decision trees and random forests
+
+Primary -
+Z-value test for outlier analysis
+z = xi - mu/ sigma
+signifies the number of std devs a point is away from the mean
+This provides a good proxy for the outlier score of that point.
+
+An implicit assumption is that the data is modeled from a normal distribution, and therefore the
+Z-value is a random variable drawn from a standard normal distribution with zero mean
+and unit variance. 
+
+In cases where the mean and standard deviation of the distribution
+can be accurately estimated, a good “rule-of-thumb” is to use Zi ≥ 3 as a proxy for the
+anomaly
+3 sd 
