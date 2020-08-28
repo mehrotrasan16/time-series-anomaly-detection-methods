@@ -6,8 +6,8 @@
 */STLoutput/*
 */ARoutput/*
 */MAoutput/*
-*/.ipynb_checkpoints/*
-*/code/.ipynb_checkpoints/*
+*.ipynb_checkpoints/*
+*code/.ipynb_checkpoints/*
 *__pycache__/*
 *code/__pycache__/*
 *img/*
