@@ -1,0 +1,15 @@
+
+#do not match anything in the data folder
+/data/
+
+#do not match anything in the STLoutput folder 
+*/STLoutput/*
+*/ARoutput/*
+*/MAoutput/*
+*/.ipynb_checkpoints/*
+*/copde/.ipynb_checkpoints/*
+*__pycache__/*
+*code/__pycache__/*
+*img/*
+*tmp/*
+*/code/__pycache__/*
